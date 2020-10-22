@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: antiquewhite;
+}
+#header-nav {
+    background-color: indigo;
+    border: 2px solid black;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Copperplate Gothic','Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 2px 1px 1px rgb(253, 83, 83);
+    vertical-align: center;
+}
+.nav-link{
+    text-align: center;
+}
+
+.menu{
+    font-size: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+}
+p{
+    clear: both;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.holder{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: navajowhite;
+    
+    overflow: visible;
+    /* height: 150px; */
+}
+.row{
+    width: 100%;
+    margin-left: 0px;
+
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: large;
+    width: 130px;
+    margin-block-start: 0px;
+    float: right;
+    text-align: center;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 2px;
+    background-color: rgba(155, 101, 0, 0.6);
+}
+
+.md4, .sm-6,.sm-12, .xs-12{
+    float: left;
+}
+/*Desktop*/
+@media (min-width: 992px){
+.md-4{
+    width: 33.33%;
+}
+.md-12{
+    width: 100%;
+}
+.invisible-md{
+    visibility: hidden;
+}
+}
+/*Tablet*/
+@media(min-width:768px) and (max-width:991px){
+.sm-6{
+    width: 50%;
+}
+.sm-12{
+    width: 100%;
+}
+.invisible-sm{
+    visibility: hidden;
+}
+}
+/*Mobile*/
+@media(max-width:767px){
+.xs-12{
+    width: 100%;
+}
+.xs-12{
+    width: 100%;
+}
+.visible-xs{
+    visibility: visible;
+}
+}
